@@ -34,3 +34,6 @@ Pods
 
 # Carthage
 Checkouts
+
+# AppCode
+*.idea/
