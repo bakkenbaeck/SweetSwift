@@ -6,10 +6,56 @@
 [![License](https://img.shields.io/cocoapods/l/SweetSwift.svg?style=flat)](https://cocoapods.org/pods/DATAStack)
 
 
-## Usage
+## Enums
+
+**SweetSwift** adds a count variable to your Enum so you can avoid having a special case for this.
+
+A common scenario would be that you use enums in your UITableViewController to separate the different sections, for example:
 
 ```swift
-<API>
+enum SectionType: Int {
+    case title, price, others, delete, count
+}
+
+override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    return SectionType.count.rawValue
+}
+```
+
+After adding **SweetSwift** you can do this instead:
+```swift
+import SweetSwift
+
+enum SectionType: Int {
+    case title, price, others, delete
+}
+
+override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    return SectionType.count
+}
+```
+
+_"Hey, but this doesn't work with String types!"._
+
+Doesn't matter, you shouldn't be using that anyway since it doesn't provide you a way to return localized variations. So maybe this should be better.
+
+```swift
+enum Section: Int {
+    case title, price, others, delete
+
+    func toString() -> String? {
+        switch self {
+        case .title:
+            return NSLocalizedString("Title", comment: "")
+        case .price:
+            return NSLocalizedString("Price", comment: "")
+        case .others:
+            return NSLocalizedString("Others", comment: "")
+        case .delete:
+            return nil
+        }
+    }
+}
 ```
 
 ## Installation
