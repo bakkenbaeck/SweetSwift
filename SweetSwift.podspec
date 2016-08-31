@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SweetSwift"
-  s.summary          = "A short description of SweetSwift."
+  s.summary          = "Helpers and sugar for Swift."
   s.version          = "0.1.0"
   s.homepage         = "https://github.com/bakkenbaeck/SweetSwift"
   s.license          = 'MIT'
