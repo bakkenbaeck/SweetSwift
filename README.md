@@ -22,7 +22,7 @@ override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
 }
 ```
 
-After adding **SweetSwift** you would do something like this instead:
+After adding **SweetSwift** you can do this instead:
 ```swift
 import SweetSwift
 
