@@ -10,7 +10,7 @@
 
 **SweetSwift** adds a count variable to your Enum so you can avoid having a special case for this.
 
-A comment scenario would be that you use enums in your UITableViewController to separate the different sections, for example:
+A common scenario would be that you use enums in your UITableViewController to separate the different sections, for example:
 
 ```swift
 enum SectionType: Int {
@@ -35,7 +35,7 @@ override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
 }
 ```
 
-"Hey, but this doesn't work with String types!"
+_"Hey, but this doesn't work with String types!"._
 
 Doesn't matter, you shouldn't be using that anyway since it doesn't provide you a way to return localized variations. So maybe this should be better.
 
