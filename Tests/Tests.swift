@@ -1,9 +1,12 @@
-import UIKit
 import XCTest
 
 class Tests: XCTestCase {
-    func testFailing() {
-        let ofCourse = true
-        XCTAssertEqual(ofCourse, false)
+    func testRawRepresentable_Sweetness() {
+        enum CountableEnum: Int {
+            case firstCase
+            case secondCase
+        }
+
+        XCTAssertEqual(CountableEnum.count, 2)
     }
 }
