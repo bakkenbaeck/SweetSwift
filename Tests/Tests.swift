@@ -9,4 +9,10 @@ class Tests: XCTestCase {
 
         XCTAssertEqual(CountableEnum.count, 2)
     }
+
+    func testString_Sweetness() {
+        let string = "twentyfour length string"
+
+        XCTAssertEqual(string.length, 24)
+    }
 }
