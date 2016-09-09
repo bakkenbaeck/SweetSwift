@@ -75,7 +75,7 @@ You'll be able to replace:
 "hello world".characters.count
 ```
 
-with this:
+With this:
 
 ```swift
 "hello world".length
