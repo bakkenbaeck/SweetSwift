@@ -5,6 +5,13 @@
 ![platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20OS%20X%20%7C%20watchOS%20%7C%20tvOS%20-lightgrey.svg)
 [![License](https://img.shields.io/cocoapods/l/SweetSwift.svg?style=flat)](https://cocoapods.org/pods/DATAStack)
 
+## Table of Contents
+
+* [Enums](#enums)
+* [String](#string)
+* [Installation](#installation)
+* [License](#license)
+* [Author](#author)
 
 ## Enums
 
@@ -56,6 +63,22 @@ enum Section: Int {
         }
     }
 }
+```
+
+## Strings
+
+**SweetSwift** adds a convenience property to access the length of a `String`.
+
+You'll be able to replace:
+
+```swift
+"hello world".characters.count
+```
+
+With this:
+
+```swift
+"hello world".length
 ```
 
 ## Installation
