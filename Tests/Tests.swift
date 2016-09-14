@@ -1,13 +1,20 @@
 import XCTest
 
 class Tests: XCTestCase {
-    func testRawRepresentable_Sweetness() {
-        enum CountableEnum: Int {
-            case firstCase
-            case secondCase
+    func testEnumCount() {
+        enum Enum1: Int {
+            case first
+            case second
         }
 
-        XCTAssertEqual(CountableEnum.count, 2)
+        XCTAssertEqual(Enum1.count, 2)
+
+        enum Enum2: Int {
+            case first = 3
+            case second = 6
+        }
+
+        XCTAssertEqual(Enum2.count, 2)
     }
 
     func testString_Sweetness() {
