@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141503F21D898FC500283465 /* CollectionType+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141503F11D898FC500283465 /* CollectionType+Sweetness.swift */; };
+		141503F41D898FE000283465 /* CollectionTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141503F31D898FE000283465 /* CollectionTypeTests.swift */; };
 		14A139B41AEFC72B00AD732F /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A139B31AEFC72B00AD732F /* Tests.swift */; };
 		14C47E0E1CD2AE5F004A48DF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14C47E0D1CD2AE5F004A48DF /* Info.plist */; };
 		E699508A1D815E79009D3BEF /* String+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69950891D815E79009D3BEF /* String+Sweetness.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		141503F11D898FC500283465 /* CollectionType+Sweetness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollectionType+Sweetness.swift"; sourceTree = "<group>"; };
+		141503F31D898FE000283465 /* CollectionTypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionTypeTests.swift; sourceTree = "<group>"; };
 		146D72AC1AB782920058798C /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146D72B11AB782920058798C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14A139B31AEFC72B00AD732F /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				14A139B31AEFC72B00AD732F /* Tests.swift */,
+				141503F31D898FE000283465 /* CollectionTypeTests.swift */,
 				146D72B01AB782920058798C /* Supporting Files */,
 			);
 			path = Tests;
@@ -117,6 +122,7 @@
 			children = (
 				E6E25C1B1D75DED300E78261 /* RawRepresentable+Sweetness.swift */,
 				E69950891D815E79009D3BEF /* String+Sweetness.swift */,
+				141503F11D898FC500283465 /* CollectionType+Sweetness.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -196,6 +202,8 @@
 			files = (
 				E699508A1D815E79009D3BEF /* String+Sweetness.swift in Sources */,
 				E6E25C1C1D75DED300E78261 /* RawRepresentable+Sweetness.swift in Sources */,
+				141503F21D898FC500283465 /* CollectionType+Sweetness.swift in Sources */,
+				141503F41D898FE000283465 /* CollectionTypeTests.swift in Sources */,
 				14A139B41AEFC72B00AD732F /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
