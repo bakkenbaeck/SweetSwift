@@ -25,7 +25,7 @@ class Tests: XCTestCase {
             case second = 6
         }
 
-        XCTAssertEqual(Enum3.count, 0)
+        XCTAssertEqual(Enum3.count, 1)
     }
 
     func testStringLength() {
