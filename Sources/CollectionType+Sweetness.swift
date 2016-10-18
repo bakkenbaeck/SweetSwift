@@ -1,7 +1,7 @@
-extension Collection where Index == Int {
+public extension Collection where Index == Int {
     typealias InternalElement = Iterator.Element
 
-    func enumeratedWithCurrentAndNext() -> [(current: Iterator.Element, next: Iterator.Element)] {
+    public func enumeratedWithCurrentAndNext() -> [(current: Iterator.Element, next: Iterator.Element)] {
         let count = self.count as! Int
         var enumeratedItems = [(InternalElement, InternalElement)]()
 
