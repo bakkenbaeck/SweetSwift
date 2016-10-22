@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9F7AE1081DAE69AF00055D8D"
-               BuildableName = "SweetSwift.framework"
-               BlueprintName = "SweetSwift"
+               BuildableName = "Networking_iOS.framework"
+               BlueprintName = "SweetSwift-iOS"
                ReferencedContainer = "container:Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9F7AE1081DAE69AF00055D8D"
-            BuildableName = "SweetSwift.framework"
-            BlueprintName = "SweetSwift"
+            BuildableName = "Networking_iOS.framework"
+            BlueprintName = "SweetSwift-iOS"
             ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9F7AE1081DAE69AF00055D8D"
-            BuildableName = "SweetSwift.framework"
-            BlueprintName = "SweetSwift"
+            BuildableName = "Networking_iOS.framework"
+            BlueprintName = "SweetSwift-iOS"
             ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

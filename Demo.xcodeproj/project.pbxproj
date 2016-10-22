@@ -45,7 +45,7 @@
 		14C47E0D1CD2AE5F004A48DF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14F393951CC6512400616696 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		14F393961CC6517E00616696 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
-		9F7AE1091DAE69AF00055D8D /* SweetSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SweetSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7AE1091DAE69AF00055D8D /* SweetSwift_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SweetSwift_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7AE10B1DAE69AF00055D8D /* SweetSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SweetSwift.h; sourceTree = "<group>"; };
 		9F7AE10C1DAE69AF00055D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E69950891D815E79009D3BEF /* String+Sweetness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Sweetness.swift"; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				146D72AC1AB782920058798C /* Tests.xctest */,
-				9F7AE1091DAE69AF00055D8D /* SweetSwift.framework */,
+				9F7AE1091DAE69AF00055D8D /* SweetSwift_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,9 +184,9 @@
 			productReference = 146D72AC1AB782920058798C /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9F7AE1081DAE69AF00055D8D /* SweetSwift */ = {
+		9F7AE1081DAE69AF00055D8D /* SweetSwift-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F7AE1101DAE69AF00055D8D /* Build configuration list for PBXNativeTarget "SweetSwift" */;
+			buildConfigurationList = 9F7AE1101DAE69AF00055D8D /* Build configuration list for PBXNativeTarget "SweetSwift-iOS" */;
 			buildPhases = (
 				9F7AE1041DAE69AF00055D8D /* Sources */,
 				9F7AE1051DAE69AF00055D8D /* Frameworks */,
@@ -197,9 +197,9 @@
 			);
 			dependencies = (
 			);
-			name = SweetSwift;
+			name = "SweetSwift-iOS";
 			productName = SweetSwift;
-			productReference = 9F7AE1091DAE69AF00055D8D /* SweetSwift.framework */;
+			productReference = 9F7AE1091DAE69AF00055D8D /* SweetSwift_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -239,7 +239,7 @@
 			projectRoot = "";
 			targets = (
 				146D72AB1AB782920058798C /* Tests */,
-				9F7AE1081DAE69AF00055D8D /* SweetSwift */,
+				9F7AE1081DAE69AF00055D8D /* SweetSwift-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -424,7 +424,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.bakkenbaeck.SweetSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SweetSwift_iOS;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -454,7 +454,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.bakkenbaeck.SweetSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SweetSwift_iOS;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -484,13 +484,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F7AE1101DAE69AF00055D8D /* Build configuration list for PBXNativeTarget "SweetSwift" */ = {
+		9F7AE1101DAE69AF00055D8D /* Build configuration list for PBXNativeTarget "SweetSwift-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F7AE10E1DAE69AF00055D8D /* Debug */,
 				9F7AE10F1DAE69AF00055D8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
