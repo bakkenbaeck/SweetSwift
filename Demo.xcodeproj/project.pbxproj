@@ -184,9 +184,9 @@
 			productReference = 146D72AC1AB782920058798C /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9F7AE1081DAE69AF00055D8D /* SweetSwift-iOS */ = {
+		9F7AE1081DAE69AF00055D8D /* SweetSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F7AE1101DAE69AF00055D8D /* Build configuration list for PBXNativeTarget "SweetSwift-iOS" */;
+			buildConfigurationList = 9F7AE1101DAE69AF00055D8D /* Build configuration list for PBXNativeTarget "SweetSwift" */;
 			buildPhases = (
 				9F7AE1041DAE69AF00055D8D /* Sources */,
 				9F7AE1051DAE69AF00055D8D /* Frameworks */,
@@ -197,7 +197,7 @@
 			);
 			dependencies = (
 			);
-			name = "SweetSwift-iOS";
+			name = SweetSwift;
 			productName = SweetSwift;
 			productReference = 9F7AE1091DAE69AF00055D8D /* SweetSwift.framework */;
 			productType = "com.apple.product-type.framework";
@@ -239,7 +239,7 @@
 			projectRoot = "";
 			targets = (
 				146D72AB1AB782920058798C /* Tests */,
-				9F7AE1081DAE69AF00055D8D /* SweetSwift-iOS */,
+				9F7AE1081DAE69AF00055D8D /* SweetSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -484,7 +484,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F7AE1101DAE69AF00055D8D /* Build configuration list for PBXNativeTarget "SweetSwift-iOS" */ = {
+		9F7AE1101DAE69AF00055D8D /* Build configuration list for PBXNativeTarget "SweetSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F7AE10E1DAE69AF00055D8D /* Debug */,
