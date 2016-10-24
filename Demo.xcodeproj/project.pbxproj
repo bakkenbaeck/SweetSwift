@@ -423,7 +423,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = no.SweetOrg.SweetSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = no.UseSweet.SweetSwift;
 				PRODUCT_NAME = SweetSwift;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -453,7 +453,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = no.SweetOrg.SweetSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = no.UseSweet.SweetSwift;
 				PRODUCT_NAME = SweetSwift;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
