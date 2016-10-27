@@ -15,6 +15,8 @@
 		9F7AE1111DAE69C400055D8D /* RawRepresentable+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E25C1B1D75DED300E78261 /* RawRepresentable+Sweetness.swift */; };
 		9F7AE1121DAE69C400055D8D /* String+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69950891D815E79009D3BEF /* String+Sweetness.swift */; };
 		9F7AE1131DAE69C400055D8D /* CollectionType+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141503F11D898FC500283465 /* CollectionType+Sweetness.swift */; };
+		9F8919CC1DC2614200207082 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8919CB1DC2614200207082 /* Math.swift */; };
+		9F8919CD1DC2614200207082 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8919CB1DC2614200207082 /* Math.swift */; };
 		E699508A1D815E79009D3BEF /* String+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69950891D815E79009D3BEF /* String+Sweetness.swift */; };
 		E6E25C1C1D75DED300E78261 /* RawRepresentable+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E25C1B1D75DED300E78261 /* RawRepresentable+Sweetness.swift */; };
 /* End PBXBuildFile section */
@@ -37,7 +39,6 @@
 		146D72AC1AB782920058798C /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146D72B11AB782920058798C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14A139B31AEFC72B00AD732F /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		14C0AF7F1BD6D4230009ECBE /* .slather.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .slather.yml; sourceTree = "<group>"; };
 		14C0AF801BD6D4230009ECBE /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		14C0AF811BD6D4230009ECBE /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		14C0AF821BD6D4230009ECBE /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
@@ -48,6 +49,7 @@
 		9F7AE1091DAE69AF00055D8D /* SweetSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SweetSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7AE10B1DAE69AF00055D8D /* SweetSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SweetSwift.h; sourceTree = "<group>"; };
 		9F7AE10C1DAE69AF00055D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8919CB1DC2614200207082 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 		E69950891D815E79009D3BEF /* String+Sweetness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Sweetness.swift"; sourceTree = "<group>"; };
 		E6E25C1B1D75DED300E78261 /* RawRepresentable+Sweetness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RawRepresentable+Sweetness.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				14C47E0D1CD2AE5F004A48DF /* Info.plist */,
-				14C0AF7F1BD6D4230009ECBE /* .slather.yml */,
 				14C0AF801BD6D4230009ECBE /* .travis.yml */,
 				14C0AF811BD6D4230009ECBE /* CHANGELOG.md */,
 				14C0AF821BD6D4230009ECBE /* CONTRIBUTING.md */,
@@ -139,6 +140,7 @@
 				E6E25C1B1D75DED300E78261 /* RawRepresentable+Sweetness.swift */,
 				E69950891D815E79009D3BEF /* String+Sweetness.swift */,
 				141503F11D898FC500283465 /* CollectionType+Sweetness.swift */,
+				9F8919CB1DC2614200207082 /* Math.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -272,6 +274,7 @@
 				141503F21D898FC500283465 /* CollectionType+Sweetness.swift in Sources */,
 				141503F41D898FE000283465 /* CollectionTypeTests.swift in Sources */,
 				14A139B41AEFC72B00AD732F /* Tests.swift in Sources */,
+				9F8919CC1DC2614200207082 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +285,7 @@
 				9F7AE1111DAE69C400055D8D /* RawRepresentable+Sweetness.swift in Sources */,
 				9F7AE1121DAE69C400055D8D /* String+Sweetness.swift in Sources */,
 				9F7AE1131DAE69C400055D8D /* CollectionType+Sweetness.swift in Sources */,
+				9F8919CD1DC2614200207082 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
