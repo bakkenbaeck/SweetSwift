@@ -33,4 +33,35 @@ class Tests: XCTestCase {
 
         XCTAssertEqual(string.length, 24)
     }
+
+    func testStringSubscripting() {
+        var string = ""
+        var result = string[0]
+        var expected = ""
+        XCTAssertEqual(result, expected)
+
+        string = "Hi"
+        result = string[0]
+        expected = "H"
+        XCTAssertEqual(result, expected)
+
+        result = string[1]
+        expected = "i"
+        XCTAssertEqual(result, expected)
+
+        string = "👯"
+        result = string[0]
+        expected = "👯"
+        XCTAssertEqual(result, expected)
+
+        string = "👯😍"
+        result = string[1]
+        expected = "😍"
+        XCTAssertEqual(result, expected)
+
+        string = ""
+        result = string[1]
+        expected = ""
+        XCTAssertEqual(result, expected)
+    }
 }
