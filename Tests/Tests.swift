@@ -59,6 +59,11 @@ class Tests: XCTestCase {
         expected = "😍"
         XCTAssertEqual(result, expected)
 
+        string = "👯try longer😍"
+        result = string[11]
+        expected = "😍"
+        XCTAssertEqual(result, expected)
+
         string = ""
         result = string[1]
         expected = ""
