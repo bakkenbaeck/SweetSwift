@@ -37,7 +37,7 @@ class Tests: XCTestCase {
     func testStringSubscripting() {
         var string = ""
         var result = string[0]
-        var expected = ""
+        var expected: String? = nil
         XCTAssertEqual(result, expected)
 
         string = "Hi"
@@ -64,9 +64,14 @@ class Tests: XCTestCase {
         expected = "😍"
         XCTAssertEqual(result, expected)
 
+        string = "👯try emoji 👍🏾 that are longer! 👏🏿"
+        result = string[11]
+        expected = "👍🏾"
+        XCTAssertEqual(result, expected)
+
         string = ""
         result = string[1]
-        expected = ""
+        expected = nil
         XCTAssertEqual(result, expected)
     }
 }

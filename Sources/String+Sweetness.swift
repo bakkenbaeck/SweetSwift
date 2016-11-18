@@ -3,9 +3,14 @@ public extension String {
         return self.characters.count
     }
 
-    public subscript(i: Int) -> String {
-        guard i >= 0 && i < characters.count else { return "" }
-        return String(self[index(startIndex, offsetBy: i)])
+    public subscript(i: Int) -> String? {
+        let count = self.characters.count
+        guard i >= 0 && i < count else { return nil }
+
+        let index = self.index(self.startIndex, offsetBy: i)
+        let range = self.rangeOfComposedCharacterSequence(at: index)
+
+        return self.substring(with: range)
     }
 
     subscript(range: Range<Int>) -> String {
