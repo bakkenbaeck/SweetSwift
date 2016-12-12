@@ -4,8 +4,14 @@ public extension String {
     }
 
     public var paddedForBase64: String {
-        let padLength = self.length % 3
+        guard let data = data(using: .utf8) else { return self }
+        
+        let padLength = data.count % 3
 
-        return self.padding(toLength: self.length + padLength, withPad: "=", startingAt: self.length)
+        if padLength == 0 {
+            return self
+        }
+
+        return self.padding(toLength: self.length + padLength, withPad: "=", startingAt: 0)
     }
 }
