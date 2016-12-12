@@ -2,4 +2,10 @@ public extension String {
     public var length: Int {
         return self.characters.count
     }
+
+    public var paddedForBase64: String {
+        let padding = self.length & 3
+
+        return self.padding(toLength: self.length + padding, withPad: "=", startingAt: self.length)
+    }
 }
