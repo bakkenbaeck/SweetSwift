@@ -11,6 +11,8 @@
 		141503F41D898FE000283465 /* CollectionTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141503F31D898FE000283465 /* CollectionTypeTests.swift */; };
 		14A139B41AEFC72B00AD732F /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A139B31AEFC72B00AD732F /* Tests.swift */; };
 		14C47E0E1CD2AE5F004A48DF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14C47E0D1CD2AE5F004A48DF /* Info.plist */; };
+		9F089EA21DFED02300C42F18 /* Data+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F089EA11DFED02300C42F18 /* Data+Sweetness.swift */; };
+		9F089EA31DFED02900C42F18 /* Data+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F089EA11DFED02300C42F18 /* Data+Sweetness.swift */; };
 		9F7AE10D1DAE69AF00055D8D /* SweetSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7AE10B1DAE69AF00055D8D /* SweetSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7AE1111DAE69C400055D8D /* RawRepresentable+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E25C1B1D75DED300E78261 /* RawRepresentable+Sweetness.swift */; };
 		9F7AE1121DAE69C400055D8D /* String+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69950891D815E79009D3BEF /* String+Sweetness.swift */; };
@@ -44,6 +46,7 @@
 		14C47E0D1CD2AE5F004A48DF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14F393951CC6512400616696 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		14F393961CC6517E00616696 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		9F089EA11DFED02300C42F18 /* Data+Sweetness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Sweetness.swift"; sourceTree = "<group>"; };
 		9F7AE1091DAE69AF00055D8D /* SweetSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SweetSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7AE10B1DAE69AF00055D8D /* SweetSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SweetSwift.h; sourceTree = "<group>"; };
 		9F7AE10C1DAE69AF00055D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -137,6 +140,7 @@
 				E6E25C1B1D75DED300E78261 /* RawRepresentable+Sweetness.swift */,
 				E69950891D815E79009D3BEF /* String+Sweetness.swift */,
 				141503F11D898FC500283465 /* CollectionType+Sweetness.swift */,
+				9F089EA11DFED02300C42F18 /* Data+Sweetness.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -268,6 +272,7 @@
 				E699508A1D815E79009D3BEF /* String+Sweetness.swift in Sources */,
 				E6E25C1C1D75DED300E78261 /* RawRepresentable+Sweetness.swift in Sources */,
 				141503F21D898FC500283465 /* CollectionType+Sweetness.swift in Sources */,
+				9F089EA21DFED02300C42F18 /* Data+Sweetness.swift in Sources */,
 				141503F41D898FE000283465 /* CollectionTypeTests.swift in Sources */,
 				14A139B41AEFC72B00AD732F /* Tests.swift in Sources */,
 			);
@@ -278,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F7AE1111DAE69C400055D8D /* RawRepresentable+Sweetness.swift in Sources */,
+				9F089EA31DFED02900C42F18 /* Data+Sweetness.swift in Sources */,
 				9F7AE1121DAE69C400055D8D /* String+Sweetness.swift in Sources */,
 				9F7AE1131DAE69C400055D8D /* CollectionType+Sweetness.swift in Sources */,
 			);
