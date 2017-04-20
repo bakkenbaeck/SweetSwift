@@ -33,4 +33,16 @@ class Tests: XCTestCase {
 
         XCTAssertEqual(string.length, 24)
     }
+
+    func testDateISO() {
+        let date = Date(timeIntervalSince1970: 0)
+
+        XCTAssertEqual(date.asISO8601Date(), "1970-01-01")
+    }
+
+    func testDateTimeISO() {
+        let date = Date(timeIntervalSince1970: 0)
+
+        XCTAssertEqual(date.asISO8601DateTime(), "1970-01-01T01:00")
+    }
 }
