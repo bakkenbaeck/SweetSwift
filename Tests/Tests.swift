@@ -33,4 +33,13 @@ class Tests: XCTestCase {
 
         XCTAssertEqual(string.length, 24)
     }
+
+    func testRepetition() {
+        var string = "b"
+        4.times {
+            string.append("a")
+        }
+
+        XCTAssertEqual("baaaa", string)
+    }
 }
