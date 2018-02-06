@@ -8,4 +8,12 @@ public extension Int {
             }
         }
     }
+
+    public func times(_ closure: (_ i: Int) -> ()) {
+        if self > 0 {
+            for i in 0..<self {
+                closure(i)
+            }
+        }
+    }
 }
