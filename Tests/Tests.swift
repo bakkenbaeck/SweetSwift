@@ -53,7 +53,7 @@ class Tests: XCTestCase {
 
         // i is 0-indexed.
         3.times { i in
-            accumulator += (i+1)
+            accumulator += (i + 1)
         }
 
         XCTAssertEqual(count, 20)
