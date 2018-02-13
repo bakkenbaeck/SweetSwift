@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		141503F21D898FC500283465 /* CollectionType+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141503F11D898FC500283465 /* CollectionType+Sweetness.swift */; };
 		141503F41D898FE000283465 /* CollectionTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141503F31D898FE000283465 /* CollectionTypeTests.swift */; };
 		14A139B41AEFC72B00AD732F /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A139B31AEFC72B00AD732F /* Tests.swift */; };
 		14C47E0E1CD2AE5F004A48DF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14C47E0D1CD2AE5F004A48DF /* Info.plist */; };
@@ -16,10 +15,7 @@
 		9F7AE1121DAE69C400055D8D /* String+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69950891D815E79009D3BEF /* String+Sweetness.swift */; };
 		9F7AE1131DAE69C400055D8D /* CollectionType+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141503F11D898FC500283465 /* CollectionType+Sweetness.swift */; };
 		9FBCA1051F9A30BC00BFDF47 /* Integer+Repetition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBCA1041F9A30BC00BFDF47 /* Integer+Repetition.swift */; };
-		9FBCA1061F9A313D00BFDF47 /* Integer+Repetition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBCA1041F9A30BC00BFDF47 /* Integer+Repetition.swift */; };
 		9FE8645C2033035E00A1C588 /* Date+Sweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8645B2033035E00A1C588 /* Date+Sweet.swift */; };
-		E699508A1D815E79009D3BEF /* String+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69950891D815E79009D3BEF /* String+Sweetness.swift */; };
-		E6E25C1C1D75DED300E78261 /* RawRepresentable+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E25C1B1D75DED300E78261 /* RawRepresentable+Sweetness.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -271,10 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E699508A1D815E79009D3BEF /* String+Sweetness.swift in Sources */,
-				9FBCA1061F9A313D00BFDF47 /* Integer+Repetition.swift in Sources */,
-				E6E25C1C1D75DED300E78261 /* RawRepresentable+Sweetness.swift in Sources */,
-				141503F21D898FC500283465 /* CollectionType+Sweetness.swift in Sources */,
 				141503F41D898FE000283465 /* CollectionTypeTests.swift in Sources */,
 				14A139B41AEFC72B00AD732F /* Tests.swift in Sources */,
 			);
@@ -402,12 +394,14 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = debugging;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -418,11 +412,13 @@
 				DEVELOPMENT_TEAM = 29X3GG489T;
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				STRIP_STYLE = debugging;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -448,9 +444,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = no.UseSweet.SweetSwift;
 				PRODUCT_NAME = SweetSwift;
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = debugging;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -480,7 +476,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = no.UseSweet.SweetSwift;
 				PRODUCT_NAME = SweetSwift;
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				STRIP_STYLE = debugging;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

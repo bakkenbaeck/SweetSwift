@@ -1,10 +1,15 @@
 import XCTest
+@testable import SweetSwift
 
 class Tests: XCTestCase {
     func testDateComponentisation() {
         // 21st of December 2017 12:00
         let date = Date(timeIntervalSince1970: 1513854000)
-        date.components()
+        let components = date.components([.day, .month, .year, .calendar])
+
+        XCTAssertEqual(components.day, 21)
+        XCTAssertEqual(components.month, 12)
+        XCTAssertEqual(components.year, 2017)
     }
 
     func testEnumCount() {
