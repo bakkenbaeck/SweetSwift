@@ -1,6 +1,12 @@
 import XCTest
 
 class Tests: XCTestCase {
+    func testDateComponentisation() {
+        // 21st of December 2017 12:00
+        let date = Date(timeIntervalSince1970: 1513854000)
+        date.components()
+    }
+
     func testEnumCount() {
         enum Enum1: Int {
             case first

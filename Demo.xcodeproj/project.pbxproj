@@ -17,6 +17,7 @@
 		9F7AE1131DAE69C400055D8D /* CollectionType+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141503F11D898FC500283465 /* CollectionType+Sweetness.swift */; };
 		9FBCA1051F9A30BC00BFDF47 /* Integer+Repetition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBCA1041F9A30BC00BFDF47 /* Integer+Repetition.swift */; };
 		9FBCA1061F9A313D00BFDF47 /* Integer+Repetition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBCA1041F9A30BC00BFDF47 /* Integer+Repetition.swift */; };
+		9FE8645C2033035E00A1C588 /* Date+Sweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8645B2033035E00A1C588 /* Date+Sweet.swift */; };
 		E699508A1D815E79009D3BEF /* String+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69950891D815E79009D3BEF /* String+Sweetness.swift */; };
 		E6E25C1C1D75DED300E78261 /* RawRepresentable+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E25C1B1D75DED300E78261 /* RawRepresentable+Sweetness.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		9F7AE10B1DAE69AF00055D8D /* SweetSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SweetSwift.h; sourceTree = "<group>"; };
 		9F7AE10C1DAE69AF00055D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FBCA1041F9A30BC00BFDF47 /* Integer+Repetition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Integer+Repetition.swift"; sourceTree = "<group>"; };
+		9FE8645B2033035E00A1C588 /* Date+Sweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Sweet.swift"; sourceTree = "<group>"; };
 		E69950891D815E79009D3BEF /* String+Sweetness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Sweetness.swift"; sourceTree = "<group>"; };
 		E6E25C1B1D75DED300E78261 /* RawRepresentable+Sweetness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RawRepresentable+Sweetness.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +141,7 @@
 				E69950891D815E79009D3BEF /* String+Sweetness.swift */,
 				141503F11D898FC500283465 /* CollectionType+Sweetness.swift */,
 				9FBCA1041F9A30BC00BFDF47 /* Integer+Repetition.swift */,
+				9FE8645B2033035E00A1C588 /* Date+Sweet.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -210,17 +213,18 @@
 			attributes = {
 				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					146D72AB1AB782920058798C = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = 29X3GG489T;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0920;
 					};
 					9F7AE1081DAE69AF00055D8D = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 29X3GG489T;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -283,6 +287,7 @@
 				9F7AE1111DAE69C400055D8D /* RawRepresentable+Sweetness.swift in Sources */,
 				9F7AE1121DAE69C400055D8D /* String+Sweetness.swift in Sources */,
 				9F7AE1131DAE69C400055D8D /* CollectionType+Sweetness.swift in Sources */,
+				9FE8645C2033035E00A1C588 /* Date+Sweet.swift in Sources */,
 				9FBCA1051F9A30BC00BFDF47 /* Integer+Repetition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,14 +303,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -343,14 +354,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -389,7 +406,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -403,7 +421,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -431,7 +450,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -460,7 +480,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = no.UseSweet.SweetSwift;
 				PRODUCT_NAME = SweetSwift;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
