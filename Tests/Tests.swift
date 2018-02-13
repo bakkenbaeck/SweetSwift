@@ -42,4 +42,21 @@ class Tests: XCTestCase {
 
         XCTAssertEqual("baaaa", string)
     }
+
+    func testIteration() {
+        var count = 0
+        var accumulator = 0
+
+        20.times {
+            count += 1
+        }
+
+        // i is 0-indexed.
+        3.times { i in
+            accumulator += (i + 1)
+        }
+
+        XCTAssertEqual(count, 20)
+        XCTAssertEqual(accumulator, 6)
+    }
 }
