@@ -1,5 +1,3 @@
-import Foundation
-
 public extension Int {
     public func times(_ closure: () -> Void) {
         guard self > 0 else { return }

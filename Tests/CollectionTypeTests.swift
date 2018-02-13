@@ -1,4 +1,5 @@
 import XCTest
+@testable import SweetSwift
 
 class CollectionTypeTests: XCTestCase {
     func testEnumerateWithNext() {
