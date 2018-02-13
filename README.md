@@ -9,6 +9,7 @@
 
 * [Enums](#enums)
 * [String](#string)
+* [Date](#date)
 * [Installation](#installation)
 * [License](#license)
 * [Author](#author)
@@ -79,6 +80,15 @@ With this:
 
 ```swift
 "hello world".length
+```
+
+
+## Date
+Easily break down a date into components with our helper method:
+
+```swift
+let date = Date()
+date.components([.hour, .day. year. calendar])
 ```
 
 ## Installation
