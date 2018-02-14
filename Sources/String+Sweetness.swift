@@ -1,5 +1,5 @@
 public extension String {
-    @available(*, deprecated: 9, message: "Please use the native count method directly instead.")
+    @available(swift, deprecated: 4.0, message: "Please use the native count method directly instead.")
     public var length: Int {
         return self.count
     }

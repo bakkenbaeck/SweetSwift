@@ -3,7 +3,7 @@ import XCTest
 
 class Tests: XCTestCase {
     func testDateComponentisation() {
-        // 21st of December 2017 12:00
+        // 21st of December 2017 12:00 +0000
         let date = Date(timeIntervalSince1970: 1513854000)
         let components = date.components([.day, .month, .year, .calendar])
 
@@ -42,7 +42,7 @@ class Tests: XCTestCase {
     func testStringLength() {
         let string = "twentyfour length string"
 
-        XCTAssertEqual(string.length, 24)
+        XCTAssertEqual(string.count, 24)
     }
 
     func testRepetition() {
