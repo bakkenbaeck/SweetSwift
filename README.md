@@ -88,7 +88,7 @@ Easily break down a date into components with our helper method:
 
 ```swift
 let date = Date()
-date.components([.hour, .day. year. calendar])
+date.components([.hour, .day, .year])
 ```
 
 ## Installation
