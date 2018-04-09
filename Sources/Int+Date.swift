@@ -19,6 +19,6 @@ extension Int {
     /// Returns a TimeInterval for an approximate number of days.
     /// Ex: 3.days == 259200 seconds. Of courrse is not Date/Time aware. Use it with care.
     var days: TimeInterval {
-        return self * 60 * 60 * 24
+        return TimeInterval(self * 60 * 60 * 24)
     }
 }

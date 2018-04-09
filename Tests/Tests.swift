@@ -12,6 +12,11 @@ class Tests: XCTestCase {
         XCTAssertEqual(components.year, 2017)
     }
 
+    func testDayHelper() {
+        XCTAssertEqual(3.days, 259200.0)
+        XCTAssertEqual(1.day, 86400)
+    }
+
     func testEnumCount() {
         enum Enum1: Int {
             case first
