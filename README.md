@@ -91,6 +91,14 @@ let date = Date()
 date.components([.hour, .day, .year])
 ```
 
+## Int + Date helper
+Easily get time intervals for a given number of days (approximated).
+
+```swift
+3.days == 259200
+1.day == 86400
+```
+
 ## Installation
 
 **SweetSwift** is available through [CocoaPods](http://cocoapods.org). To install
