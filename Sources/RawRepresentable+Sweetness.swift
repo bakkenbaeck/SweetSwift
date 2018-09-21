@@ -1,3 +1,4 @@
+@available(swift, deprecated: 4.2, message: "Use `CaseIterable`'s `allCases` for a much more flexible way of getting the count of cases in an enum")
 public extension RawRepresentable where RawValue: BinaryInteger {
     /// Returns the amount of cases defined in an enum whose rawValues
     /// are integers.
