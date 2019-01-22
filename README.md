@@ -1,7 +1,7 @@
 # SweetSwift
 
 [![Version](https://img.shields.io/cocoapods/v/SweetSwift.svg?style=flat)](https://cocoapods.org/pods/SweetSwift)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/UseSweet/SweetSwift)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/BakkenBaeck/SweetSwift)
 ![platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20OS%20X%20%7C%20watchOS%20%7C%20tvOS%20-lightgrey.svg)
 [![License](https://img.shields.io/cocoapods/l/SweetSwift.svg?style=flat)](https://cocoapods.org/pods/DATAStack)
 
@@ -58,7 +58,7 @@ pod 'SweetSwift' , '~> 2'
 it, simply add the following line to your Cartfile:
 
 ```ruby
-github "UseSweet/SweetSwift"
+github "BakkenBaeck/SweetSwift"
 ```
 
 ## License
