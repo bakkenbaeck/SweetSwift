@@ -97,7 +97,7 @@ date.components([.hour, .day, .year])
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SweetSwift' , '~> 1'
+pod 'SweetSwift' , '~> 2'
 ```
 
 **SweetSwift** is also available through [Carthage](https://github.com/Carthage/Carthage). To install
