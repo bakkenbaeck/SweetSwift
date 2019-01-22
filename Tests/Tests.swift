@@ -2,14 +2,33 @@ import XCTest
 @testable import SweetSwift
 
 class Tests: XCTestCase {
-    func testDateComponentisation() {
-        // 21st of December 2017 12:00 +0000
-        let date = Date(timeIntervalSince1970: 1513854000)
-        let components = date.components([.day, .month, .year, .calendar])
+    
+    func testZeroPaddingSingleDigitInteger() throws {
+        XCTAssertThrowsError(try 4.zeroPaddedString(minimumCharacters: 0))
 
-        XCTAssertEqual(components.day, 21)
-        XCTAssertEqual(components.month, 12)
-        XCTAssertEqual(components.year, 2017)
+        let oneCharacter = try 4.zeroPaddedString(minimumCharacters: 1)
+        XCTAssertEqual(oneCharacter, "4")
+    
+        let twoCharacters = try 4.zeroPaddedString(minimumCharacters: 2)
+        XCTAssertEqual(twoCharacters, "04")
+        
+        let threeCharaters = try 4.zeroPaddedString(minimumCharacters: 3)
+        XCTAssertEqual(threeCharaters, "004")
+    }
+    
+    func testZeroPaddingDoubleDigitInteger() throws {
+        XCTAssertThrowsError(try 44.zeroPaddedString(minimumCharacters: 0))
+        
+        let oneCharacter = try 44.zeroPaddedString(minimumCharacters: 1)
+        XCTAssertEqual(oneCharacter, "44")
+        
+        let twoCharacters = try 44.zeroPaddedString(minimumCharacters: 2)
+        XCTAssertEqual(twoCharacters, "44")
+        
+        let threeCharaters = try 44.zeroPaddedString(minimumCharacters: 3)
+        XCTAssertEqual(threeCharaters, "044")
+    }
+
     func testMapWithoutParameter() {
         let array = 5.map { false }
         XCTAssertEqual(array, [ false, false, false, false, false ])
