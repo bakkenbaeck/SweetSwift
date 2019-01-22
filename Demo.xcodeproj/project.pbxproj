@@ -11,7 +11,7 @@
 		14A139B41AEFC72B00AD732F /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A139B31AEFC72B00AD732F /* Tests.swift */; };
 		9F7AE10D1DAE69AF00055D8D /* SweetSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7AE10B1DAE69AF00055D8D /* SweetSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7AE1131DAE69C400055D8D /* CollectionType+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141503F11D898FC500283465 /* CollectionType+Sweetness.swift */; };
-		9FBCA1051F9A30BC00BFDF47 /* Integer+Repetition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBCA1041F9A30BC00BFDF47 /* Integer+Repetition.swift */; };
+		9FBCA1051F9A30BC00BFDF47 /* Int+Repetition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBCA1041F9A30BC00BFDF47 /* Int+Repetition.swift */; };
 		9FE8645C2033035E00A1C588 /* Date+Sweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8645B2033035E00A1C588 /* Date+Sweet.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +44,7 @@
 		9F7AE1091DAE69AF00055D8D /* SweetSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SweetSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7AE10B1DAE69AF00055D8D /* SweetSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SweetSwift.h; sourceTree = "<group>"; };
 		9F7AE10C1DAE69AF00055D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FBCA1041F9A30BC00BFDF47 /* Integer+Repetition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Integer+Repetition.swift"; sourceTree = "<group>"; };
+		9FBCA1041F9A30BC00BFDF47 /* Int+Repetition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Repetition.swift"; sourceTree = "<group>"; };
 		9FE8645B2033035E00A1C588 /* Date+Sweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Sweet.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,8 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				141503F11D898FC500283465 /* CollectionType+Sweetness.swift */,
-				9FBCA1041F9A30BC00BFDF47 /* Integer+Repetition.swift */,
 				9FE8645B2033035E00A1C588 /* Date+Sweet.swift */,
+				9FBCA1041F9A30BC00BFDF47 /* Int+Repetition.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -274,7 +274,7 @@
 			files = (
 				9F7AE1131DAE69C400055D8D /* CollectionType+Sweetness.swift in Sources */,
 				9FE8645C2033035E00A1C588 /* Date+Sweet.swift in Sources */,
-				9FBCA1051F9A30BC00BFDF47 /* Integer+Repetition.swift in Sources */,
+				9FBCA1051F9A30BC00BFDF47 /* Int+Repetition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

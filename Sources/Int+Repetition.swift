@@ -14,4 +14,14 @@ public extension Int {
             closure(i)
         }
     }
+    
+    public func map<T>(_ closure: () -> T)  -> [T] {
+        var items = [T]()
+        for _ in 0..<self {
+            let item = closure()
+            items.append(item)
+        }
+        
+        return items
+    }
 }
