@@ -7,88 +7,42 @@
 
 ## Table of Contents
 
-* [Enums](#enums)
-* [String](#string)
 * [Date](#date)
+* [Int](#int)
 * [Installation](#installation)
 * [License](#license)
 * [Author](#author)
 
-## Enums
-
-**SweetSwift** adds a count variable to your Enum so you can avoid having a special case for this.
-
-A common scenario would be that you use enums in your UITableViewController to separate the different sections, for example:
-
-```swift
-enum SectionType: Int {
-    case title, price, others, delete, count
-}
-
-override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-    return SectionType.count.rawValue
-}
-```
-
-After adding **SweetSwift** you can do this instead:
-```swift
-import SweetSwift
-
-enum SectionType: Int {
-    case title, price, others, delete
-}
-
-override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-    return SectionType.count
-}
-```
-
-_"Hey, but this doesn't work with String types!"._
-
-Doesn't matter, you shouldn't be using that anyway since it doesn't provide you a way to return localized variations. So maybe this should be better.
-
-```swift
-enum Section: Int {
-    case title, price, others, delete
-
-    func toString() -> String? {
-        switch self {
-        case .title:
-            return NSLocalizedString("Title", comment: "")
-        case .price:
-            return NSLocalizedString("Price", comment: "")
-        case .others:
-            return NSLocalizedString("Others", comment: "")
-        case .delete:
-            return nil
-        }
-    }
-}
-```
-
-## Strings
-
-**SweetSwift** adds a convenience property to access the length of a `String`.
-
-You'll be able to replace:
-
-```swift
-"hello world".characters.count
-```
-
-With this:
-
-```swift
-"hello world".length
-```
-
 
 ## Date
+
 Easily break down a date into components with our helper method:
 
 ```swift
 let date = Date()
 date.components([.hour, .day, .year])
+```
+
+Or create a new date with the day/month/year and optional hour/minute/second components: 
+
+```swift
+let date = Date.from(day: 22, month: 1, year: 2018)
+```
+
+## Int
+
+Create arrays of a number of things: 
+
+```swift
+5.map { "Hello" }
+// returns [ "Hello", "Hello", "Hello", "Hello", "Hello" ]
+```
+
+or run a given operation a number of times: 
+```swift
+5.times {
+    print("Swift is awesome!")
+}
 ```
 
 ## Installation
