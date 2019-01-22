@@ -1,1 +1,1 @@
-Check https://github.com/UseSweet/SweetSwift/releases for more information.
+Check https://github.com/BakkenBaeck/SweetSwift/releases for more information.
