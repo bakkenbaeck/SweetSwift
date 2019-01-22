@@ -1,7 +1,7 @@
 import XCTest
 @testable import SweetSwift
 
-class Tests: XCTestCase {
+class IntTests: XCTestCase {
     
     func testZeroPaddingSingleDigitInteger() throws {
         XCTAssertThrowsError(try 4.zeroPaddedString(minimumCharacters: 0))
