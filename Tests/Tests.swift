@@ -10,6 +10,24 @@ class Tests: XCTestCase {
         XCTAssertEqual(components.day, 21)
         XCTAssertEqual(components.month, 12)
         XCTAssertEqual(components.year, 2017)
+    func testMapWithoutParameter() {
+        let array = 5.map { false }
+        XCTAssertEqual(array, [ false, false, false, false, false ])
+    }
+    
+    func testMapWithParameter() {
+        func trueFalse(index: Int) -> Bool {
+            if index % 2 == 0 {
+                return true
+            } else {
+                return false
+            }
+        }
+        
+        
+        let array = 5.map(trueFalse)
+        
+        XCTAssertEqual(array, [ true, false, true, false, true ])
     }
 
     func testRepetition() {
