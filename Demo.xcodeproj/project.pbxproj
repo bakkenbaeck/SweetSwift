@@ -10,7 +10,6 @@
 		141503F41D898FE000283465 /* CollectionTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141503F31D898FE000283465 /* CollectionTypeTests.swift */; };
 		14A139B41AEFC72B00AD732F /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A139B31AEFC72B00AD732F /* Tests.swift */; };
 		9F7AE10D1DAE69AF00055D8D /* SweetSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7AE10B1DAE69AF00055D8D /* SweetSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F7AE1121DAE69C400055D8D /* String+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69950891D815E79009D3BEF /* String+Sweetness.swift */; };
 		9F7AE1131DAE69C400055D8D /* CollectionType+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141503F11D898FC500283465 /* CollectionType+Sweetness.swift */; };
 		9FBCA1051F9A30BC00BFDF47 /* Integer+Repetition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBCA1041F9A30BC00BFDF47 /* Integer+Repetition.swift */; };
 		9FE8645C2033035E00A1C588 /* Date+Sweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8645B2033035E00A1C588 /* Date+Sweet.swift */; };
@@ -47,7 +46,6 @@
 		9F7AE10C1DAE69AF00055D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FBCA1041F9A30BC00BFDF47 /* Integer+Repetition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Integer+Repetition.swift"; sourceTree = "<group>"; };
 		9FE8645B2033035E00A1C588 /* Date+Sweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Sweet.swift"; sourceTree = "<group>"; };
-		E69950891D815E79009D3BEF /* String+Sweetness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Sweetness.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +132,6 @@
 		14C31A8C1CD294C70056A33F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E69950891D815E79009D3BEF /* String+Sweetness.swift */,
 				141503F11D898FC500283465 /* CollectionType+Sweetness.swift */,
 				9FBCA1041F9A30BC00BFDF47 /* Integer+Repetition.swift */,
 				9FE8645B2033035E00A1C588 /* Date+Sweet.swift */,
@@ -275,7 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F7AE1121DAE69C400055D8D /* String+Sweetness.swift in Sources */,
 				9F7AE1131DAE69C400055D8D /* CollectionType+Sweetness.swift in Sources */,
 				9FE8645C2033035E00A1C588 /* Date+Sweet.swift in Sources */,
 				9FBCA1051F9A30BC00BFDF47 /* Integer+Repetition.swift in Sources */,

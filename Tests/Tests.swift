@@ -12,13 +12,6 @@ class Tests: XCTestCase {
         XCTAssertEqual(components.year, 2017)
     }
 
-
-    func testStringLength() {
-        let string = "twentyfour length string"
-
-        XCTAssertEqual(string.count, 24)
-    }
-
     func testRepetition() {
         var string = "b"
         4.times {
