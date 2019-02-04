@@ -58,7 +58,8 @@ class DateTests: XCTestCase {
         let dateFromTimestamp = Date(timeIntervalSince1970: 1513818123)
         
         let gmt = TimeZone(secondsFromGMT: 0)!
-        let dateFromExtension = try Date.from(day: 21,month: 12,
+        let dateFromExtension = try Date.from(day: 21,
+                                              month: 12,
                                               year: 2017,
                                               hour: 1,
                                               minute: 2,
