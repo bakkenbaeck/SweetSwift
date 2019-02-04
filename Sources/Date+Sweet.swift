@@ -34,7 +34,7 @@ public extension Date {
     ///
     /// NOTE: Due to underlying behavior by `DateComponents`, if you pass in something ridiculous, it'll wrap to the
     //        next reasonable value for that component. For example if you pass in
-    ///       `Date.from(day: 21, month: 14, year: 2017)`, you'll get back a date of 2 February 2018.
+    ///       `Date.from(day: 21, month: 14, year: 2017)`, you'll get back a date of 21 February 2018.
     ///
     /// - Parameters:
     ///   - day: The day to use.
