@@ -1,4 +1,4 @@
-GitHub Issues is for reporting bugs, discussing features and general feedback in **SweetSwift**. Be sure to check our [documentation](http://cocoadocs.org/docsets/SweetSwift), [FAQ](https://github.com/UseSweet/SweetSwift/blob/master/README.md#faq) and [past issues](https://github.com/UseSweet/SweetSwift/issues?state=closed) before opening any new issues.
+GitHub Issues is for reporting bugs, discussing features and general feedback in **SweetSwift**. Be sure to check our [documentation](http://cocoadocs.org/docsets/SweetSwift), [FAQ](https://github.com/BakkenBaeck/SweetSwift/blob/master/README.md#faq) and [past issues](https://github.com/BakkenBaeck/SweetSwift/issues?state=closed) before opening any new issues.
 
 If you are posting about a crash in your application, a stack trace is helpful, but additional context, in the form of code and explanation, is necessary to be of any use.
 

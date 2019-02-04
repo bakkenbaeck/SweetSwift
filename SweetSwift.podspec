@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = "SweetSwift"
   s.summary          = "Helpers and sugar for Swift."
-  s.version          = "1.3.0"
-  s.homepage         = "https://github.com/UseSweet/SweetSwift"
+  s.version          = "2.0.0"
+  s.homepage         = "https://github.com/BakkenBaeck/SweetSwift"
   s.license          = 'MIT'
   s.author           = { "Bakken & Bæck" => "post@UseSweet.no" }
-  s.source           = { :git => "https://github.com/UseSweet/SweetSwift.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/BakkenBaeck/SweetSwift.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/UseSweet'
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
