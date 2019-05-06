@@ -1,6 +1,6 @@
 public extension Int {
     
-    public enum ZeroPaddingError: Error {
+    enum ZeroPaddingError: Error {
         case invalidMinimumCharacterCount
         
         public var description: String {
@@ -16,7 +16,7 @@ public extension Int {
     /// - Parameter minimumCharacters: The minimum number of characters to display.
     /// - Returns: The zero-padded string.
     /// - Throws: An error if an invalid minimum number of characters is passed in (ie, zero or fewer)
-    public func zeroPaddedString(minimumCharacters: Int) throws -> String {
+    func zeroPaddedString(minimumCharacters: Int) throws -> String {
         guard minimumCharacters > 0 else {
             throw ZeroPaddingError.invalidMinimumCharacterCount
         }
