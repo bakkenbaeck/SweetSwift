@@ -7,7 +7,7 @@ public extension Date {
     ///   - calendar: The calendar to use to get the date components. Defaults to `Calendar.current`
     ///   - timeZone: The time zone to use with the calendar to get the date components. Defaults to `Calendar.current`.
     /// - Returns: The retrieved components.
-    public func components(_ components: Set<Calendar.Component>,
+    func components(_ components: Set<Calendar.Component>,
                            calendar: Calendar = .current,
                            timeZone: TimeZone = .current) -> DateComponents {
         var mutableCalendar = calendar
@@ -48,15 +48,15 @@ public extension Date {
     ///   - calendar: The calendar to use to create a date from the components. Defaults to `Calendar.current`.
     /// - Returns: The created date.
     /// - Throws: An error if a date could not be created
-    public static func from(day: Int,
-                            month: Int,
-                            year: Int,
-                            hour: Int = 0,
-                            minute: Int = 0,
-                            second: Int = 0,
-                            componentTimeZone: TimeZone = .current,
-                            calendarTimeZone: TimeZone = .current,
-                            calendar: Calendar = .current) throws -> Date {
+    static func from(day: Int,
+                     month: Int,
+                     year: Int,
+                     hour: Int = 0,
+                     minute: Int = 0,
+                     second: Int = 0,
+                     componentTimeZone: TimeZone = .current,
+                     calendarTimeZone: TimeZone = .current,
+                     calendar: Calendar = .current) throws -> Date {
         var components = DateComponents()
         components.day = day
         components.month = month
