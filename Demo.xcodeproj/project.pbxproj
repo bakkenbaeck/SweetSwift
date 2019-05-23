@@ -14,6 +14,8 @@
 		9F7AE10D1DAE69AF00055D8D /* SweetSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7AE10B1DAE69AF00055D8D /* SweetSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7AE1131DAE69C400055D8D /* CollectionType+Sweetness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141503F11D898FC500283465 /* CollectionType+Sweetness.swift */; };
 		9FBCA1051F9A30BC00BFDF47 /* Int+Repetition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBCA1041F9A30BC00BFDF47 /* Int+Repetition.swift */; };
+		9FD941AD2296CF94004EA333 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD941AC2296CF94004EA333 /* StringTests.swift */; };
+		9FD941AF2296CFF2004EA333 /* String+Prepending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD941AE2296CFF2004EA333 /* String+Prepending.swift */; };
 		9FE8645C2033035E00A1C588 /* Date+Sweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8645B2033035E00A1C588 /* Date+Sweet.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +51,8 @@
 		9F7AE10B1DAE69AF00055D8D /* SweetSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SweetSwift.h; sourceTree = "<group>"; };
 		9F7AE10C1DAE69AF00055D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FBCA1041F9A30BC00BFDF47 /* Int+Repetition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Repetition.swift"; sourceTree = "<group>"; };
+		9FD941AC2296CF94004EA333 /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
+		9FD941AE2296CFF2004EA333 /* String+Prepending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Prepending.swift"; sourceTree = "<group>"; };
 		9FE8645B2033035E00A1C588 /* Date+Sweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Sweet.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				141503F31D898FE000283465 /* CollectionTypeTests.swift */,
+				9FD941AC2296CF94004EA333 /* StringTests.swift */,
 				9B56094921F73B2C00ED0CF5 /* DateTests.swift */,
 				14A139B31AEFC72B00AD732F /* IntTests.swift */,
 				146D72B01AB782920058798C /* Supporting Files */,
@@ -141,6 +146,7 @@
 				9FE8645B2033035E00A1C588 /* Date+Sweet.swift */,
 				9FBCA1041F9A30BC00BFDF47 /* Int+Repetition.swift */,
 				9B56094B21F7448C00ED0CF5 /* Int+StringPadding.swift */,
+				9FD941AE2296CFF2004EA333 /* String+Prepending.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -217,7 +223,7 @@
 				TargetAttributes = {
 					146D72AB1AB782920058798C = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 29X3GG489T;
+						DevelopmentTeam = 2HTW8NQCP5;
 						LastSwiftMigration = 1020;
 					};
 					9F7AE1081DAE69AF00055D8D = {
@@ -271,6 +277,8 @@
 			files = (
 				141503F41D898FE000283465 /* CollectionTypeTests.swift in Sources */,
 				9B56094A21F73B2C00ED0CF5 /* DateTests.swift in Sources */,
+				9FD941AD2296CF94004EA333 /* StringTests.swift in Sources */,
+				9FD941AF2296CFF2004EA333 /* String+Prepending.swift in Sources */,
 				14A139B41AEFC72B00AD732F /* IntTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,7 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 29X3GG489T;
+				DEVELOPMENT_TEAM = 2HTW8NQCP5;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -417,7 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 29X3GG489T;
+				DEVELOPMENT_TEAM = 2HTW8NQCP5;
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
