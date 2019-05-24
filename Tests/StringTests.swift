@@ -9,22 +9,25 @@ import XCTest
 @testable import SweetSwift
 
 class StringTests: XCTestCase {
-    let prefix = "prefix:"
+    let prefix = "prefix: "
 
     func testPrepending() {
         var mutableString = "a string that I can change"
 
-        XCTAssertFalse(mutableString.hasPrefix(prefix))
-        mutableString.prepend(prefix)
-        XCTAssertTrue(mutableString.hasPrefix(prefix))
+        XCTAssertFalse(mutableString.hasPrefix(self.prefix))
+        mutableString.prepend(self.prefix)
+        XCTAssertTrue(mutableString.hasPrefix(self.prefix))
+        XCTAssertEqual(mutableString, "prefix: a string that I can change")
     }
 
     func testImmutableString() {
         let immutableString = "can't be modified"
 
-        XCTAssertFalse(immutableString.hasPrefix(prefix))
-        let modifiedString = immutableString.prepending(prefix)
-        XCTAssertFalse(immutableString.hasPrefix(prefix))
-        XCTAssertTrue(modifiedString.hasPrefix(prefix))
+        XCTAssertFalse(immutableString.hasPrefix(self.prefix))
+        let modifiedString = immutableString.prepending(self.prefix)
+        XCTAssertFalse(immutableString.hasPrefix(self.prefix))
+        XCTAssertTrue(modifiedString.hasPrefix(self.prefix))
+        XCTAssertEqual(immutableString, "can't be modified")
+        XCTAssertEqual(modifiedString, "prefix: can't be modified")
     }
 }
