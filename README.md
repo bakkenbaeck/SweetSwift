@@ -9,6 +9,7 @@
 
 * [Date](#date)
 * [Int](#int)
+* [String](#string)
 * [Installation](#installation)
 * [License](#license)
 * [Author](#author)
@@ -27,6 +28,15 @@ Or create a new date with the day/month/year and optional hour/minute/second com
 
 ```swift
 let date = Date.from(day: 22, month: 1, year: 2018)
+```
+
+## String
+
+Easily prepend to a string.
+
+```swift
+path.prepend("/")
+normalizedPath = path.prepending("/")
 ```
 
 ## Int
