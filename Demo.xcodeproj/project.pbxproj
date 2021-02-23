@@ -142,13 +142,21 @@
 		14C31A8C1CD294C70056A33F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				9F09781E25E51C5E00D42BA3 /* SweetSwift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9F09781E25E51C5E00D42BA3 /* SweetSwift */ = {
+			isa = PBXGroup;
+			children = (
 				141503F11D898FC500283465 /* CollectionType+Sweetness.swift */,
 				9FE8645B2033035E00A1C588 /* Date+Sweet.swift */,
 				9FBCA1041F9A30BC00BFDF47 /* Int+Repetition.swift */,
 				9B56094B21F7448C00ED0CF5 /* Int+StringPadding.swift */,
 				9FD941AE2296CFF2004EA333 /* String+Prepending.swift */,
 			);
-			path = Sources;
+			path = SweetSwift;
 			sourceTree = "<group>";
 		};
 		9F7AE10A1DAE69AF00055D8D /* SweetSwift */ = {
