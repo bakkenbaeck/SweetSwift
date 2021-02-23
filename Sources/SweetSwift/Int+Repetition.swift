@@ -1,3 +1,5 @@
+import Foundation
+
 public extension Int {
     
     /// Runs a closure the callee's number of times.

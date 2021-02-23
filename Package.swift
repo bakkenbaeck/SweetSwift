@@ -1,3 +1,5 @@
+// swift-tools-version:5.3
+
 // Licensed under the **MIT** license
 // Copyright (c) 2016 Bakken & Bæck
 //
@@ -23,5 +25,11 @@
 import PackageDescription
 
 let package = Package(
-  name: "SweetSwift"
+    name: "SweetSwift",
+    products: [
+        .library(name: "SweetSwift", targets: ["SweetSwift"])
+    ],
+    targets: [
+        .target(name: "SweetSwift")
+    ]
 )

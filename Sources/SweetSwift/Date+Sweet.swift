@@ -1,3 +1,5 @@
+import Foundation
+
 public extension Date {
     
     /// A date components object with the information from the given parametrs.
