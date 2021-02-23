@@ -1,3 +1,5 @@
+import Foundation
+
 public extension Collection where Index == Int {
     typealias InternalElement = Iterator.Element
 

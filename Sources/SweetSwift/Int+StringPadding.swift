@@ -1,3 +1,5 @@
+import Foundation
+
 public extension Int {
     
     enum ZeroPaddingError: Error {
